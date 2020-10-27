@@ -1459,6 +1459,10 @@ input, select, textarea {
 				padding: 2.5rem 1rem;
 			}
 
+			#header .content .fontstyle h1 {
+				text-shadow: 2px 2px red;
+			}
+
 			#header .content p {
 				line-height: 1.875;
 			}
@@ -1473,6 +1477,10 @@ input, select, textarea {
 
 				#header .content .inner {
 					padding: 2.5rem 0;
+				}
+
+				#header .content .fontstyle {
+					text-shadow: 2px 2px red;
 				}
 
 				#header nav ul {
@@ -1630,24 +1638,19 @@ input, select, textarea {
 
 /* Footer */
 
-	#footer {
-		-moz-transition: -moz-transform 0.325s ease-in-out, -moz-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out, opacity 0.325s ease-in-out;
-		width: 100%;
-		max-width: 100%;
-		margin-top: 2rem;
-		text-align: center;
-	}
+footer {
+	background-color: rgba(0, 0, 0, 0.63);
+	width: 85%;
+	height: 50px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
 
-		#footer .copyright {
-			letter-spacing: 0.2rem;
-			font-size: 0.6rem;
-			opacity: 0.75;
-			margin-bottom: 0;
-			text-transform: lowercase;
-		}
+footer p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 		body.is-article-visible #footer {
 			-moz-transform: scale(0.95);
